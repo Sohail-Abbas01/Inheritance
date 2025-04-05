@@ -11,7 +11,7 @@ let person = {
         return `Hello, my name is ${this.name} and I am ${this.age} years old.`;
     }
 };
-//...
+//..
 // Step 2: Create a child object (Student) that inherits from person
 let student = Object.create(person);
 
